@@ -1,5 +1,14 @@
-Pymaceuticals Analysis
+# Pharmaceuticals Data Analysis and Visualization
+Using sample data from a fake pharmaceutical company this program analyzes and visualizes the effectiveness of different drugs in treating cancer in mice.
 
+## Requirements
+- matplotlib
+- pandas
+- numpy
+- scipy
+- itertools
+
+## Observable Trends
 1. In terms of mouse survival rates, Ramicane and Capomulin were the best drugs with ending survival rates of 80% and 84%, respectively. All other drugs were substantially worse with some drugs such as Propriva (26.9%), Infubinol(36%), and Stelasyn(42.3%) performing worse than the placebo (44%).
 
 2. Ramicane and Capomulin were the only two drugs to decrease tumor volume. On average Ramicane decrease tumor volume by 22.32% and Capomulin decreased tumor volume by 19.48%. In comparison, the placebo group had an average of 51.30% increase in tumor volume. Unfortunately, Stelasyn (52.09%), Naftisol (53.92%), and Ketapril (57.03%) had greater average increases than the placebo.
